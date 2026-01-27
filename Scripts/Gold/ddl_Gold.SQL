@@ -1,7 +1,24 @@
+/*
+====================================================
+ Layer Name: Gold Layer
+ Project   : ADAM STORE – Data Warehouse
 
+ Purpose:
+   The Gold layer stores **cleaned, aggregated, and 
+   business-ready data**. Data here is transformed 
+   from the Silver layer to provide insights for 
+   reporting, analytics, and dashboards.
 
+ Key Points:
+   - Contains business KPIs and metrics
+   - Data is ready for analytics and visualization
+   - Supports reporting, dashboards, and decision-making
 
+ Usage:
+   Query Gold tables directly for reporting and analysis.
 
+====================================================
+*/
 --===================================================
 -- Creat Dimention: gold.dim_customers
 --===================================================
